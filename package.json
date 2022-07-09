@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "buildscript": "node ./scripts/gen-rss.js && next build",
     "start": "next start",
     "lint": "next lint"
   },

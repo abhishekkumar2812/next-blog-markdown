@@ -19,8 +19,6 @@ const Article: FunctionComponent<IProps> = ({ article }) => {
           src={article.meta.thumbnail}
           unoptimized
           priority
-          width="100%"
-          height="100%"
           layout="fill"
           alt="banner"
         />
